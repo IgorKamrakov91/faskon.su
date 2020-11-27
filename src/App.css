@@ -2,9 +2,18 @@
   text-align: center;
 }
 
-.App-logo {
-  width: 100%;
-  height: 24em;
+@media only screen and (max-width: 600px) {
+  .App-logo {
+    width: 100%;
+    height: 10em;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .App-logo {
+    width: auto;
+    height: 20em;
+  }
 }
 
 .container {
@@ -15,11 +24,22 @@
   font-weight: 500;
 }
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+@media only screen and (max-width: 600px) {
+  .centered {
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .centered {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 .App-header {
