@@ -4,20 +4,18 @@ import image from './Binder23.jpg';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className='container'>
         <img src={image} className="App-logo" alt="logo" />
-        {/* <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
-      </header>
+        <div className='centered'>
+          <p>Сайт на реконструкции</p>
+
+          <p>ООО "ФасКон"</p>
+
+          <p>8 (812) 677-61-98</p>
+
+          <a href="mailto: info@faskon.su">info@faskon.su</a>
+        </div>
+      </div>
     </div>
   );
 }
