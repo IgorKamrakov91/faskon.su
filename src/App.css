@@ -21,8 +21,6 @@
   text-align: center;
   color: black;
   font-size: 32px;
-  font-weight: 500;
-  font-family: 'Nunito', sans-serif;
 }
 
 @media only screen and (max-width: 600px) {
@@ -31,6 +29,8 @@
     top: 120%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-family: 'Nunito', sans-serif;
   }
 }
 
@@ -40,6 +40,8 @@
     top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-family: 'Nunito', sans-serif;
   }
 }
 
